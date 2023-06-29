@@ -10,12 +10,23 @@
   height: 400px;
 }
 .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100px;
   width: 150px;
   background-color: rgb(46, 40, 235);
   border-radius: 10px;
   color: #fff;
   font-size: 30px;
+}
+.container{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
 /* Напишіть ваш код css після цього коментаря */
 /* 1.Не змінюючи стилі вище зробіть макет максимально схожий на зображення  */
